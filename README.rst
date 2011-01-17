@@ -1,14 +1,18 @@
+References
+----------
 http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/
 
 Cool
-====
+----
 
-``*`` finds next occurrence of word under cursor.
+``*``
+    Finds next occurrence of word under cursor.
 
 Plugins
 =======
 
-MRU - most recent file ('u' for ... what?)
+MRU
+    Most recent file ('u' for ... what?)
 
 Finding
 =======
