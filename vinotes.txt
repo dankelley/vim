@@ -1,40 +1,47 @@
-http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/
+Convenience
+-----------
 
-Cool
-====
+``noremap Q gq}``
+    Makes ``Q`` reformat the present paragraph.
 
-``*`` finds next occurrence of word under cursor.
+Deleting
+--------
+``dt<``
+    delete til ``<`` (wonderful for left indenting things)
 
 Plugins
-=======
+-------
 
-MRU - most recent file ('u' for ... what?)
+MRU
+    most recent file ('u' for ... what?)
 
 Finding
-=======
+-------
 
-``*`` find next occurrence of word under cursor
+``*``
+    find next occurrence of word under cursor
 
 marking
-=======
+-------
 
-``ma`` puts mark named ``a`` at cursor; ``a-z`` are available.  Later
-on, can jump to this mark with ``'a``.
+``ma``
+    puts mark named ``a`` at cursor; ``a-z`` are available.  Later on,
+    can jump to this mark with ``'a``.
 
-``v`` turn on character marking.
-
-Format whole file
-=================
+``v``
+    turn on character marking.
 
 ``gg=G``
-	
-registers
-=========
+    Indent whole file
 
-``"ayy`` yank current line into register ``a``
+registers
+---------
+
+``"ayy``
+    yank current line into register ``a``
 
 copy a region
-=============
+-------------
 
 1. go to start
 2. ``mk``   to put a mark there, called ``k``
@@ -43,7 +50,7 @@ copy a region
    you can then copy it somewhere with ``p``
 
 delete a region
-===============
+---------------
 
 1. go to start
 2. ``mk``   to put a mark there, called ``k``
@@ -51,6 +58,9 @@ delete a region
 4. ``d'k``
 
 Links
-=====
+-----
 1. http://tottinge.blogsome.com/use-vim-like-a-pro
 
+References
+----------
+http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/
