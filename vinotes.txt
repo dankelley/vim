@@ -6,7 +6,10 @@ Convenience
 
 Searching
 ---------
+Color-coding matches
+
     :set hlsearch
+
 Deleting
 --------
 ``dt<``
