@@ -2,7 +2,6 @@ set enc=utf-8
 set ruler
 
 set nohlsearch
-set nospell
 set tabpagemax=100
 set laststatus=2
 set statusline=[%l,%c\ %P%M]\ %f\ %r%h%w
@@ -16,8 +15,8 @@ set tw=70
 set number
 noremap Q gq}
 
+colorscheme dek01
 if has("gui_macvim")
-   colorscheme dek01
    set guifont=Monaco:h13
 endif
 
@@ -36,6 +35,7 @@ if has("autocmd")
 endif
 
 " for plugins
+set modelines=1
 set nocompatible
 syntax enable
 filetype plugin on
