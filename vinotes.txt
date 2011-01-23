@@ -1,3 +1,19 @@
+Changing
+--------
+
+``YpVr-``
+    Copy previous line, paste it below, select it, change chars to
+    "-", i.e. underline a line
+
+``ci"``
+    Change In quotes (alter quoted string containing cursor)
+
+``ci(``
+    Change In parentheses
+
+``ct=``
+    Change Til "="
+
 Convenience
 -----------
 
