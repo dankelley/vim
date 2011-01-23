@@ -1,0 +1,42 @@
+set enc=utf-8
+set ruler
+
+set nohlsearch
+set nospell
+set tabpagemax=100
+set laststatus=2
+set statusline=[%l,%c\ %P%M]\ %f\ %r%h%w
+
+
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+set tw=70
+set number
+noremap Q gq}
+
+if has("gui_macvim")
+   colorscheme dek01
+   set guifont=Monaco:h13
+endif
+
+"if has("gui_macvim")
+"   hi Conceal guibg=White guifg=Black
+"   set cole=2
+"   "let g:tex_conceal= 'adgm'
+"endif
+
+if has("autocmd")
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+  filetype plugin indent on
+endif
+
+" for plugins
+set nocompatible
+syntax enable
+filetype plugin on
+filetype indent on
