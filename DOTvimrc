@@ -1,3 +1,6 @@
+let r_indent_align_args = 1
+let r_indent_ess_comments = 1
+let r_indent_ess_compatible = 1
 set enc=utf-8
 set ruler
 
@@ -6,12 +9,12 @@ set tabpagemax=100
 set laststatus=2
 set statusline=[%l,%c\ %P%M]\ %f\ %r%h%w
 
-
 set expandtab
+autocmd FileType make setlocal noexpandtab
 set shiftwidth=4
 set softtabstop=4
 
-set tw=70
+set tw=100
 set number
 noremap Q gq}
 
@@ -32,6 +35,7 @@ if has("autocmd")
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
   filetype plugin indent on
+  "autocmd! BufWritePost ~/.vimrc source ~/.vimrc
 endif
 
 " for plugins
